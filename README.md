@@ -1,4 +1,4 @@
-# 🎯 Deal Hunter — PE Deal Sourcing Screener
+#  Deal Hunter — PE Deal Sourcing Screener
 
 > A Python-based Private Equity deal sourcing tool that screens 90+ global companies and ranks acquisition targets using a weighted financial scoring model.
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 Deal Hunter replicates the logic a PE analyst uses when screening for acquisition targets. It combines real financial data with a proprietary scoring model to surface the most attractive buyout candidates across the S&P 500 universe.
 
@@ -16,7 +16,7 @@ Built as a personal project to apply computer science skills to private equity a
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **PE Attractiveness Score (0–100)** — weighted model across 5 key metrics
 - **Interactive filters** — sector, EV/EBITDA cap, EBITDA margin, revenue growth, market cap
@@ -26,7 +26,7 @@ Built as a personal project to apply computer science skills to private equity a
 
 ---
 
-## 🧠 Scoring Model
+## Scoring Model
 
 Each company is scored using percentile ranking across 5 PE-relevant metrics:
 
@@ -48,7 +48,7 @@ Each company is scored using percentile ranking across 5 PE-relevant metrics:
 
 ---
 
-## 📐 LBO Returns Estimator
+##  LBO Returns Estimator
 
 Model a full leveraged buyout scenario with:
 - Entry/exit EV/EBITDA multiples
@@ -60,7 +60,7 @@ Outputs: **IRR**, **MOIC**, equity build-up chart, and a full **IRR sensitivity 
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ```bash
 # Clone the repo
@@ -76,7 +76,7 @@ streamlit run app.py
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -88,7 +88,7 @@ streamlit run app.py
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 deal-hunter/
@@ -102,13 +102,13 @@ deal-hunter/
 
 ---
 
-## 👤 Author
+##  Author
 
 **Antonis Noulhs** — Computer Science Student, Year 3  
 Interested in Private Equity, Investment Banking & Quantitative Finance
 
 ---
 
-## 📄 License
+##  License
 
 MIT License — free to use and modify.
